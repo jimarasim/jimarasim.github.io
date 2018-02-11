@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Brush+Script|Nanum+Pen+Script|Quicksand');
+html {
+    height: 100%;
+    background-color: lightblue;
+}
+body {
+    height: 100%;
+    background-color: lightgray;
+    width: 1000px;
+    margin: auto;
+}
+body p, h1, h2, h3 {
+    font-family: 'Quicksand', sans-serif;
+}
+header {
+    background-color: darkgreen;
+    color: lightgreen;
+    padding: 10px;
+    font-size: 12pt;
+    display: block;
+    width: 980px;
+    border-radius: 10px;
+}
+header h1 {
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 50pt;
+    padding: 10;
+    margin: 0;
+}
+header h2 {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 18pt;
+    padding: 10;
+    margin: 0;
+}
+div.pullRight {
+    width: 200px;
+    display: inline-block;
+    /* vertical-align: top; */
+    background-color: lavender;
+    font-size: 12pt;
+    height: 100%;
+    margin: 5px;
+    border-radius: 10px;
+    float: right;
+}
+div.pullLeft {
+    line-height: 0;
+    background-color: lavender;
+    width:200px;
+    display: inline-block;
+    /* vertical-align: top; */
+    height: 100%;
+    margin: 5px;
+    border-radius: 10px;
+    float: left;
+}
+div h3 {
+    margin: 15px;
+}
+div ul {
+    list-style-type: none;
+    margin: 15px;
+    line-height: 25px;
+    padding: 5px;
+}
+div ul li {
+    padding: 7px;
+}
+a {
+    color: darkorange;
+    font-family: 'Quicksand', sans-serif;
+}
+section {
+    width: 500px;
+    display: inline-block;
+    margin: auto;
+}
+section article {
+    border: 1px;
+    border-color: black;
+}
+section article img {
+    border: 2px;
+    border-color: black;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: lavender;
+    text-align: left;
+    padding:5px;
+    display: block;
+    border-radius: 10px 10px 10px 10px;
+}
+footer div#rights {
+    position: relative;
+    float: left;
+}
+footer div#credit {
+    position: relative;
+    float: right;
+    margin-right: 25px;
+}
